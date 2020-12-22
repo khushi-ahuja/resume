@@ -1,0 +1,215 @@
+body{
+    margin:0px;
+}
+.section-heading{
+    color: rgb(44, 165, 44);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 540;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* body header */
+#body-header{
+    height: 65vh;
+    background-image: url("images/macbook_mouse.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.78;
+}
+/* Horizontal list */
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    padding: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.horizontal-list li a:hover{
+    color:lightgrey;
+    text-decoration: underline;
+    /* border-bottom: 1px solid white; */
+}
+.text-center{
+    text-align: center;
+}
+#my-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+.social-icons li a i{
+    padding: 14px;
+    margin-top: 3.7rem;
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    border-radius: 35%;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.801);
+}
+/* about section */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#my-image{
+    width: 12rem;
+    height: 12rem;
+    margin: 0px auto;
+    margin-top: -9vh;
+}
+#my-image img{
+    border: 1px solid rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.253);
+}
+#about p{
+    margin: auto 18%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+
+/* skills */
+
+#skills hr{
+    /* height: 0.05rem; */
+    background-color: grey;
+    margin: auto 18%;
+
+}
+#skills{
+    margin: auto 18%;
+}
+
+.skill-display{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skill-pro{
+    margin: 5% auto;
+    width: 7rem;
+    height: 1.4rem;
+    background-color:lightgrey;
+    border-radius: 0.7rem;
+}
+.skill-name{
+    margin-left: 9%;
+    color: whitesmoke;
+}
+.cl-blue{
+    background-color: rgb(93, 113, 224);
+}
+
+.cl-green{
+    background-color: rgb(63, 153, 98);
+}
+/* percentage and border radius classes */
+.thirty-five{
+    width: 35%;
+    height: inherit;
+}
+.fifty{
+    width: 50%;
+    height: inherit;
+}
+.seventy-five{
+    width: 75%;
+    height: inherit;
+}
+.round-border{
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+}
+
+/* education */
+
+#education hr{
+    background-color: grey;
+    margin: auto 18%;
+}
+#education{
+    margin: auto 15%;
+}
+
+    /* timeline */
+
+.timeline{
+    position: relative;
+    /* margin: auto 15%; */
+    width: 102%;
+    /* border: 2px solid black; */
+}
+.timeline-box{
+    position: relative;
+    margin: 0.5rem;
+    width: 40%;
+    left: 4%;
+    min-height: 150px;
+    padding: 2%;
+    border-radius: 10%;
+    background-color: rgba(235, 233, 233, 0.842);
+    /* border: 2px solid black; */
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+.timeline-box:nth-child(2n+1){
+    text-align: right;
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0%;
+    top: 10%;
+    left: 50%;
+    border:  dashed rgba(167, 192, 202, 0.466);
+}
+.timeline-traveller{
+    position: sticky;
+    top: 38%;
+    margin: -1vw;
+}
+.heading{
+    color: rgb(33, 145, 79);
+    overflow-wrap: break-word;
+    font-size: 1.2em;
+    font-weight: 520;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.year{
+    color: rgb(47, 141, 94);
+    font-size: 0.9em;
+}
+
+.info{
+    color: rgb(71, 71, 71);
+}
+
+/* contact */
+#contact{
+    height: 40vh;
+    background-color:rgb(0, 0, 29);
+}
